@@ -51,14 +51,22 @@ DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
-DEFAULT_OPTIMAL_API = "https://cf.090227.xyz/cu"
+DEFAULT_OPTIMAL_API = "https://cf.090227.xyz/cu&port=8443"
 
 # 占位符检测：命中任意一个就认为用户还没配置
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
- 
+ cf.1o.ee:8443#US 联通优选[cf.1o.ee 172ms]
+cf.xreak.top:8443#US 联通优选[cf.xreak.top 176ms]
+cnllm.com:8443#US 联通优选[cnllm.com 181ms]
+visa.com:8443#HK 联通优选[visa.com 191ms]
+www.postman.com:8443#HK 联通优选[www.postman.com 193ms]
+www.eccu.edu:8443#US 联通优选[www.eccu.edu 195ms]
+www.ntu.edu.sg:8443#US 联通优选[www.ntu.edu.sg 199ms]
+shabak.gov.il:8443#US 联通优选[shabak.gov.il 199ms]
+www.petronaftco.com:8443#US 联通优选[www.petronaftco.com 201ms]
 ]
 
 DATA_CENTER_ORG_KEYWORDS = [
